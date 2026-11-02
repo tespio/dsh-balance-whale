@@ -24,8 +24,6 @@ recharge/bonus split, and how long ago the number was read.
 
 ## Install
 
-From the [plugin market](https://dshmarket.com/) once listed, or directly:
-
 ```sh
 dsh plugin --profile web add github:tespio/dsh-balance-whale
 ```
@@ -33,7 +31,7 @@ dsh plugin --profile web add github:tespio/dsh-balance-whale
 Prebuilt tarball, pinned to a release:
 
 ```sh
-dsh plugin --profile web add https://github.com/tespio/dsh-balance-whale/releases/download/v1.1.0/dsh-balance-whale-1.1.0.tgz
+dsh plugin --profile web add https://github.com/tespio/dsh-balance-whale/releases/download/v1.1.2/dsh-balance-whale-1.1.2.tgz
 ```
 
 There is no build step and there are no dependencies — the package is plain JavaScript, so
@@ -71,6 +69,16 @@ pose on the minute rather than up to a poll late.
   your existing Platform sign-in.
 - The route returns wallet totals and timestamps only, is served from the same origin, and sends no
   CORS header, so other sites cannot read it.
+
+## Related
+
+[dsh-whale-widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget) covers this ground and
+much more: a floating corner widget with usage accounting, per-turn cost, alerts, sounds and balance
+templates for 30+ providers. If you want any of that, use it.
+
+This plugin is deliberately the small one: a chip in the sidebar footer that shows the balance and
+the current price period, with no panel, no settings, no extra files and no network beyond the
+balance read.
 
 ## Notes
 
