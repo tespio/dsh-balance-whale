@@ -9,14 +9,15 @@
 A whale in the DSH sidebar footer that shows your DeepSeek account balance, a live countdown to the
 next price switch, and whether you are on peak or off-peak pricing.
 
-- **Peak** — the whale swims, with bubbles drifting up behind its tail, and the countdown runs in the
-  peak colour.
-- **Off-peak** — the whale sleeps under little floating `z`s, and the countdown runs in the off-peak
-  colour.
+- **Peak** — the whale is drawn bright and tilted, and the countdown runs in the peak colour.
+- **Off-peak** — the whale is drawn pale and curled, and the countdown runs in the off-peak colour.
 - A live `HH:MM:SS` between the whale and the balance counts down to the next switch, and the whale
   changes pose the moment it reaches zero.
 - The balance refreshes **by itself** every 30 seconds, and immediately when the window regains
   focus or the page becomes visible. Nothing to click.
+
+The screenshots above are stills. In the running app the whale moves: it bobs and turns while the
+price is at peak, and breathes slowly while it sleeps off-peak.
 
 Hover the chip for the full picture: the price multiplier, the clock time of the next switch, the
 recharge/bonus split, and how long ago the number was read.

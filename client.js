@@ -111,13 +111,13 @@ window.__ModuleLoader__.load({
       '.dshbw-body{transform-box:fill-box;transform-origin:50% 55%}',
       '.dshbw[data-period="peak"] .dshbw-body{animation:dshbw-swim 4.05s ease-in-out infinite}',
       '.dshbw[data-period="offPeak"] .dshbw-body{animation:dshbw-sleep 6s ease-in-out infinite}',
-      '.dshbw-bubble{fill:#7a9eff;transform-box:fill-box;transform-origin:50% 50%;animation:dshbw-bubble 3.4s ease-out infinite}',
-      '.dshbw-z{fill:none;stroke:#93a1c4;stroke-width:1.05;stroke-linecap:round;stroke-linejoin:round;',
+      '.dshbw-bubble{fill:#8fb3ff;transform-box:fill-box;transform-origin:50% 50%;animation:dshbw-bubble 3s ease-out infinite}',
+      '.dshbw-z{fill:none;stroke:#a8b6d8;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;',
       'transform-box:fill-box;transform-origin:50% 50%;animation:dshbw-z 4.2s ease-out infinite}',
-      '@keyframes dshbw-swim{0%,100%{transform:translateY(0) rotate(-3.5deg)}50%{transform:translateY(-1.2px) rotate(3.5deg)}}',
+      '@keyframes dshbw-swim{0%,100%{transform:translateY(0) rotate(-5deg)}50%{transform:translateY(-2px) rotate(5deg)}}',
       '@keyframes dshbw-sleep{0%,100%{transform:rotate(-5deg) scale(.94)}50%{transform:rotate(-4deg) scale(.975)}}',
-      '@keyframes dshbw-bubble{0%{transform:translate(0,0);opacity:0}25%{opacity:.75}100%{transform:translate(2.2px,-8px);opacity:0}}',
-      '@keyframes dshbw-z{0%{transform:translate(0,0) scale(.7);opacity:0}30%{opacity:.85}100%{transform:translate(2.6px,-5.5px) scale(1.1);opacity:0}}',
+      '@keyframes dshbw-bubble{0%{transform:translate(0,0);opacity:0}25%{opacity:.95}100%{transform:translate(3px,-10px);opacity:0}}',
+      '@keyframes dshbw-z{0%{transform:translate(0,0) scale(.7);opacity:0}30%{opacity:1}100%{transform:translate(2.6px,-5.5px) scale(1.1);opacity:0}}',
       '@media (prefers-reduced-motion:reduce){.dshbw,.dshbw-body,.dshbw-bubble,.dshbw-z{transition:none;animation:none!important}}',
     ].join('')
 
@@ -446,9 +446,9 @@ window.__ModuleLoader__.load({
           marks.push(h('circle', {
             key: 'bubble' + index,
             className: 'dshbw-bubble',
-            cx: 22.1 - index * 0.55,
-            cy: 16.2 + index * 1.15,
-            r: 0.5 + index * 0.2,
+            cx: 21.2 + index * 0.7,
+            cy: 4.2 - index * 1.0,
+            r: 0.85 + index * 0.25,
             style: { animationDelay: (index * 0.95) + 's' },
           }))
         }
