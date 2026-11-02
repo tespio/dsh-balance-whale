@@ -1,9 +1,9 @@
 # dsh-balance-whale
 
 <p align="center">
-  <img width="276" alt="Off-peak: the whale is pale and curled, the countdown runs green" src="https://raw.githubusercontent.com/tespio/dsh-balance-whale/main/assets/off-peak.png">
+  <img width="276" alt="Off-peak: the whale is pale and curled, the countdown runs green" src="https://raw.githubusercontent.com/tespio/dsh-balance-whale/main/assets/screenshot.png">
   &nbsp;&nbsp;
-  <img width="276" alt="Peak: the whale is bright and tilted, the countdown runs orange" src="https://raw.githubusercontent.com/tespio/dsh-balance-whale/main/assets/peak.png">
+  <img width="276" alt="Peak: the whale is bright and tilted, the countdown runs orange" src="https://raw.githubusercontent.com/tespio/dsh-balance-whale/main/assets/screenshot-peak.png">
 </p>
 
 A whale in the DSH sidebar footer that shows your DeepSeek account balance, a live countdown to the
