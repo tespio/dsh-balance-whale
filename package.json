@@ -1,6 +1,6 @@
 {
   "name": "dsh-balance-whale",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "DeepSeek balance and peak/off-peak pricing whale, shown in the DSH sidebar footer.",
   "keywords": [

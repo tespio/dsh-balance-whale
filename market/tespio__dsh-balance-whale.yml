@@ -4,6 +4,6 @@ url: https://github.com/tespio/dsh-balance-whale
 name: tespio/dsh-balance-whale
 category: usage
 description:
-  en: 'Balance chip in the DSH sidebar footer showing the signed-in DeepSeek account balance and the current peak or off-peak pricing period as a whale that swims at peak and sleeps off-peak, refreshed automatically every 30 seconds.'
-  zh: '侧边栏底部的余额小部件：显示已登录的 DeepSeek 账户余额与当前高峰/空闲时段——高峰时鲸鱼游动、空闲时入睡，并每 30 秒自动刷新。'
+  en: 'Balance chip in the DSH sidebar footer showing the signed-in DeepSeek account balance, the current peak or off-peak pricing period as a whale that swims at peak and sleeps off-peak, and a live countdown to the next switch, refreshed automatically every 30 seconds.'
+  zh: '侧边栏底部的余额小部件：显示已登录的 DeepSeek 账户余额与当前高峰/空闲时段（高峰游动、空闲入睡的鲸鱼），并带下一次切换的实时倒计时，每 30 秒自动刷新。'
 tarball: https://github.com/tespio/dsh-balance-whale/releases/latest/download/dsh-balance-whale.tgz
