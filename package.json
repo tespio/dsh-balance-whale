@@ -1,0 +1,48 @@
+{
+  "name": "dsh-balance-whale",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "DeepSeek balance and peak/off-peak pricing whale, shown in the DSH sidebar footer.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek",
+    "balance",
+    "pricing"
+  ],
+  "author": "tespio",
+  "license": "MIT",
+  "homepage": "https://github.com/tespio/dsh-balance-whale#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tespio/dsh-balance-whale.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tespio/dsh-balance-whale/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  }
+}

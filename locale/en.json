@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek Balance",
+    "description": "Shows the signed-in DeepSeek Platform balance in the sidebar footer, with the live peak / off-peak pricing period as a whale that swims at peak and sleeps off-peak."
+  }
+}

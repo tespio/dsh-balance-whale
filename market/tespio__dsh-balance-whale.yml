@@ -1,0 +1,9 @@
+# Catalog entry for awesome-dsh-plugin (https://github.com/awesome-dsh-plugin/awesome-dsh-plugin).
+# Copy to data/plugins/tespio__dsh-balance-whale.yml in a pull request.
+url: https://github.com/tespio/dsh-balance-whale
+name: tespio/dsh-balance-whale
+category: usage
+description:
+  en: 'Balance chip in the DSH sidebar footer showing the signed-in DeepSeek account balance and the current peak or off-peak pricing period as a whale that swims at peak and sleeps off-peak, refreshed automatically every 30 seconds.'
+  zh: '侧边栏底部的余额小部件：显示已登录的 DeepSeek 账户余额与当前高峰/空闲时段——高峰时鲸鱼游动、空闲时入睡，并每 30 秒自动刷新。'
+tarball: https://github.com/tespio/dsh-balance-whale/releases/latest/download/dsh-balance-whale.tgz
