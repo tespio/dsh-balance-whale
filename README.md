@@ -1,6 +1,8 @@
 # dsh-balance-whale
 
-![The balance chip in the DSH sidebar footer: a sleeping whale, the off-peak countdown and the account balance](https://raw.githubusercontent.com/tespio/dsh-balance-whale/main/assets/screenshot.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tespio/dsh-balance-whale/main/assets/screenshot.png" alt="The balance chip in the DSH sidebar footer: a sleeping whale, the off-peak countdown and the account balance">
+</p>
 
 A whale in the DSH sidebar footer that shows your DeepSeek account balance, a live countdown to the
 next price switch, and whether you are on peak or off-peak pricing.
